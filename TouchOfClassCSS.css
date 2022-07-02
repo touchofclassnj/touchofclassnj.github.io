@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(aquamarine, aqua);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -53,4 +54,16 @@ button{
     height: 30px;
     margin-right: 30px;
     color: blue;
+    background-color: antiquewhite;
+    border: outset;
+    cursor:pointer;
+}
+
+.card{
+    background-color: rgb(252, 241, 229);
+    height: max(70vh, 950px);
+    width: max(65vw, 750px);
+    box-shadow: 10px 10px 50px royalblue;
+    border-radius: 10px;
+    margin-top: 5vh;
 }
