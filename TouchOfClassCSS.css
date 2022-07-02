@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(aquamarine, aqua);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navigation{
+    margin-top: 1vh;
+    background-color: rgb(252, 241, 229);
+    height: 15vh;
+    width: 70vw;
+    box-shadow: 10px 10px 50px royalblue;
+    border-radius: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.subheaders{
+    color: rgb(223, 77, 136);
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-right: 30px;
+    color: blue;
+}
