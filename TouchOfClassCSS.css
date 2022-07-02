@@ -67,3 +67,75 @@ button{
     border-radius: 10px;
     margin-top: 5vh;
 }
+
+@media screen and (max-width: 1500) {
+    body{
+        background-image: linear-gradient(aquamarine, aqua);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .navigation{
+        margin-top: 1vh;
+        background-color: rgb(252, 241, 229);
+        height: max(15vh, 170px);
+        width: 800px;
+        box-shadow: 10px 10px 50px royalblue;
+        border-radius: 10px;
+    }
+    
+    h1{
+        font-size: 36px;
+        display: inline-block;
+        justify-content: center;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    h3{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .subheaders{
+        color: rgb(223, 77, 136);
+        display: flex;
+        justify-content: center;
+    }
+    
+    li{
+        font-size: 17px;
+        font-weight: bold;
+        margin-right: 25px;
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    
+    button{
+        width: 100px;
+        height: 30px;
+        margin-right: 30px;
+        color: blue;
+        background-color: antiquewhite;
+        border: outset;
+        cursor:pointer;
+    }
+    
+    .card{
+        background-color: rgb(252, 241, 229);
+        height: max(70vh, 950px);
+        width: 1000px;
+        box-shadow: 10px 10px 50px royalblue;
+        border-radius: 10px;
+        margin-top: 5vh;
+    }
+}
