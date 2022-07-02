@@ -71,8 +71,7 @@ button{
 @media screen and (max-width: 1500) {
     body{
         background-image: linear-gradient(aquamarine, aqua);
-        display: flex;
-        flex-direction: column;
+        display: block;
         justify-content: center;
         align-items: center;
         height: 100%;
@@ -84,7 +83,7 @@ button{
         margin-top: 1vh;
         background-color: rgb(252, 241, 229);
         height: 170px;
-        width: 900px;
+        width: 500px;
         box-shadow: 10px 10px 50px royalblue;
         border-radius: 10px;
     }
@@ -133,7 +132,7 @@ button{
     .card{
         background-color: rgb(252, 241, 229);
         height: 2000px;
-        width: 900px;
+        width: 500px;
         box-shadow: 10px 10px 50px royalblue;
         border-radius: 10px;
         margin-top: 5vh;
