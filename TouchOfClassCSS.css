@@ -68,12 +68,11 @@ button{
     margin-top: 5vh;
 }
 
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) { */
     body{
         background-image: linear-gradient(aquamarine, aqua);
         display: block;
-        justify-content: center;
-        align-items: center;
+        text-align: -webkit-center;
         height: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -83,7 +82,7 @@ button{
         margin-top: 1vh;
         background-color: rgb(252, 241, 229);
         height: 170px;
-        width: 500px;
+        width: 550px;
         box-shadow: 10px 10px 50px royalblue;
         border-radius: 10px;
     }
@@ -131,10 +130,10 @@ button{
     
     .card{
         background-color: rgb(252, 241, 229);
-        height: 2000px;
+        height: 1000px;
         width: 500px;
         box-shadow: 10px 10px 50px royalblue;
         border-radius: 10px;
         margin-top: 5vh;
     }
-}
+/* } */
