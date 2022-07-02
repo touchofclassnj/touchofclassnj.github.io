@@ -68,7 +68,7 @@ button{
     margin-top: 5vh;
 }
 
-@media screen and (max-width: 1500) {
+@media screen and (max-width: 1500px) {
     body{
         background-image: linear-gradient(aquamarine, aqua);
         display: block;
