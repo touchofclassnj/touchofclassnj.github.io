@@ -128,6 +128,33 @@ button{
     }
 }
 
+
+@media screen and (min-width: 551px){
+    .gradient:hover{
+        animation-name:texthighlight;
+        animation-duration: 0.5s;
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    
+    @keyframes texthighlight{
+        from{
+            color:black
+        }
+    
+        to{
+            background-image: linear-gradient(60deg, #E21143, #FFB03A);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
+}
+
+
  @media screen and (max-width: 550px) { 
     body{
         background-image: linear-gradient(aquamarine, aqua);
@@ -154,6 +181,13 @@ button{
         margin: 10px 0px 0px 0px;
     }
     
+    .gradient{
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
     h3{
         font-size: 15px;
         display: flex;
