@@ -190,7 +190,11 @@ button{
     }
     
     .card{
+        background-color: rgb(252, 241, 229);
         height: 500px;
         width: 300px;
+        box-shadow: 10px 10px 50px royalblue;
+        border-radius: 10px;
+        margin-top: 5vh;
     }
 } 
