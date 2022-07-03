@@ -111,10 +111,10 @@ button{
 }
 
 .logo{
-    width: max(20vw, 150px) ;
-    height: max(20vw, 150px) ;
-    margin-left: 4vw;
-    margin-right: 4vw;
+    width: max(10vw, 100px) ;
+    height: max(10vw, 100px) ;
+    margin-left: 5vw;
+    margin-right: 5vw;
     cursor:pointer;
 }
 
