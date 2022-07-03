@@ -16,28 +16,6 @@ a{
     cursor: pointer;
 }
 
-.gradient:hover{
-    animation-name:texthighlight;
-    animation-duration: 0.5s;
-    background-image: linear-gradient(60deg, #E21143, #FFB03A);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-
-@keyframes texthighlight{
-    from{
-        color:black
-    }
-
-    to{
-        background-image: linear-gradient(60deg, #E21143, #FFB03A);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-    }
-}
 
 body{
     background-image: linear-gradient(aquamarine, aqua);
