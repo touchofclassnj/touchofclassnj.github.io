@@ -26,6 +26,14 @@ body{
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
 .navigation{
@@ -82,7 +90,7 @@ button{
 .card{
     background-color: rgb(252, 241, 229);
     text-align: center;
-    height: max(70vh, 1050px);
+    /* height: max(70vh, 1050px); */
     width: max(70vw, 500px);
     box-shadow: 10px 10px 50px royalblue;
     border-radius: 10px;
@@ -90,6 +98,23 @@ button{
     animation-name: slidein;
     animation-duration: 1.5s;
 
+}
+
+.map{
+    width: max(65vw, 450px);
+    cursor: pointer;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: max(20vw, 150px) ;
+    height: max(20vw, 150px) ;
+    margin: auto;
+    cursor:pointer;
 }
 
 @keyframes slidein {
@@ -208,5 +233,9 @@ button{
         box-shadow: 10px 10px 50px royalblue;
         border-radius: 10px;
         margin-top: 5vh;
+    }
+
+    .map{
+        width: 270px;
     }
 } 
