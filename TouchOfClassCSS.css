@@ -110,11 +110,14 @@ button{
     justify-content: center;
 }
 
+.logoWrapper{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 .logo{
     width: max(10vw, 100px) ;
     height: max(10vw, 100px) ;
-    margin-left: 5vw;
-    margin-right: 5vw;
     cursor:pointer;
 }
 
