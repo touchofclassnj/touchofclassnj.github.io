@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Splash;
+    src: url('GreatVibes-Regular.ttf');
+}
+
+
+.header{
+    font-family: Splash;
+}
+
+
 body{
     background-image: linear-gradient(aquamarine, aqua);
     display: flex;
@@ -13,7 +24,7 @@ body{
     margin-top: 1vh;
     background-color: rgb(252, 241, 229);
     height: max(15vh, 170px);
-    width: max(60vw, 700px);
+    width: max(70vw, 500px);
     box-shadow: 10px 10px 50px royalblue;
     border-radius: 10px;
 }
@@ -62,13 +73,13 @@ button{
 .card{
     background-color: rgb(252, 241, 229);
     height: max(70vh, 950px);
-    width: max(65vw, 750px);
+    width: max(70vw, 500px);
     box-shadow: 10px 10px 50px royalblue;
     border-radius: 10px;
     margin-top: 5vh;
 }
 
- @media screen and (max-width: 600px) { 
+ @media screen and (max-width: 550px) { 
     body{
         background-image: linear-gradient(aquamarine, aqua);
         display: block;
