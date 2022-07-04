@@ -122,6 +122,11 @@ button{
     cursor:pointer;
 }
 
+.credit{
+    color:grey;
+    font-size: x-small;
+}
+
 @keyframes slidein {
     from {
         margin-top:100vh;
