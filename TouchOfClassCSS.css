@@ -71,7 +71,7 @@ body::-webkit-scrollbar {
 .navigation{
     margin-top: 1vh;
     background-color: rgb(252, 241, 229);
-    height: max(15vh, 170px);
+    height: 200px;
     width: min(90vw, 1000px);
     box-shadow: 10px 10px 50px royalblue;
     border-radius: 10px;
@@ -98,7 +98,7 @@ h3{
 }
 
 li{
-    font-size: min(3.7vw,17px);
+    font-size: min(4vw, 17px);
     font-weight: bold;
     margin-right: min(5.5vw,25px);
 }
