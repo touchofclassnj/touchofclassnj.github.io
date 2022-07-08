@@ -129,7 +129,7 @@ button{
     border-radius: 10px;
     margin-top: 5vh;
     animation-name: slidein;
-    animation-duration: 1.5s;
+    animation-duration: 1.75s;
 
 }
 
@@ -167,7 +167,7 @@ button{
     }
 
     60%{
-        margin-top:2vh;
+        margin-top:3.5vh;
     }
 
     to{
