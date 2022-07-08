@@ -16,6 +16,38 @@ a{
     cursor: pointer;
 }
 
+.gradient:hover{
+    animation-name:texthighlight;
+    animation-duration: 0.5s;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+@keyframes texthighlight{
+    from{
+        color:black
+    }
+
+    to{
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+@media (hover: none) {
+    .gradient{
+        background-image: linear-gradient(60deg, #E21143, #FFB03A);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
 
 body{
     background-image: linear-gradient(aquamarine, aqua);
@@ -40,7 +72,7 @@ body::-webkit-scrollbar {
     margin-top: 1vh;
     background-color: rgb(252, 241, 229);
     height: max(15vh, 170px);
-    width: max(70vw, 500px);
+    width: min(90vw, 1000px);
     box-shadow: 10px 10px 50px royalblue;
     border-radius: 10px;
 }
@@ -53,7 +85,7 @@ h1{
 }
 
 h3{
-    font-size: 20px;
+    font-size: min(4.5vw,20px);
     display: flex;
     justify-content: center;
     margin: 0px 0px 0px 0px;
@@ -66,9 +98,9 @@ h3{
 }
 
 li{
-    font-size: 17px;
+    font-size: min(3.8vw,17px);
     font-weight: bold;
-    margin-right: 25px;
+    margin-right: min(5.5vw,25px);
 }
 
 .buttons{
@@ -79,7 +111,8 @@ li{
 button{
     width: 100px;
     height: 30px;
-    margin-right: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
     color: blue;
     background-color: antiquewhite;
     border: outset;
@@ -91,7 +124,7 @@ button{
     background-color: rgb(252, 241, 229);
     text-align: center;
     /* height: max(70vh, 1050px); */
-    width: max(70vw, 500px);
+    width: min(90vw, 1000px);
     box-shadow: 10px 10px 50px royalblue;
     border-radius: 10px;
     margin-top: 5vh;
@@ -101,7 +134,7 @@ button{
 }
 
 .map{
-    width: max(65vw, 450px);
+    width: min(85vw, 950px);
     cursor: pointer;
 }
 
@@ -111,14 +144,15 @@ button{
 }
 
 .logoWrapper{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-top: 5vw;
+    margin-bottom: 5vw;;
 }
 
 .logo{
-    width: max(10vw, 100px) ;
-    height: max(10vw, 100px) ;
+    width: min(10vw, 100px) ;
+    height: min(10vw, 100px) ;
     cursor:pointer;
 }
 
@@ -142,33 +176,10 @@ button{
 }
 
 
-@media screen and (min-width: 551px){
-    .gradient:hover{
-        animation-name:texthighlight;
-        animation-duration: 0.5s;
-        background-image: linear-gradient(60deg, #E21143, #FFB03A);
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-    }
-    
-    
-    @keyframes texthighlight{
-        from{
-            color:black
-        }
-    
-        to{
-            background-image: linear-gradient(60deg, #E21143, #FFB03A);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-        }
-    }
-}
 
 
- @media screen and (max-width: 550px) { 
+
+ /* @media screen and (max-width: 550px) { 
     body{
         background-image: linear-gradient(aquamarine, aqua);
         display: block;
@@ -253,4 +264,4 @@ button{
         color:grey;
         font-size: 6px;
     }
-} 
+}  */
